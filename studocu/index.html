@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Download, install and use KTools Studocu PDF Exporter.">
+  <title>Studocu PDF Exporter — KTools</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../routes.css">
+  <link rel="stylesheet" href="../downloads.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../"><span class="brand-mark">K</span>KTools</a>
+    <nav><a href="../">All tools</a><a href="../downloads/">Downloads</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+    <a class="header-download" href="../downloads/ktools-studocu-pdf-exporter-1.0.0-manual.zip" download>Download ZIP</a>
+  </header>
+
+  <main class="page-shell guide-page">
+    <span class="badge">STUDOCU · VERSION 1.0.0</span>
+    <h1 class="single-line-title">Studocu PDF Exporter.</h1>
+    <p class="intro">Use the floating STU panel on Studocu document pages to reset the viewer when needed, capture rendered pages and prepare a clean printable PDF view.</p>
+
+    <section class="guide-accordion" aria-label="Studocu PDF Exporter guide">
+      <details id="download-extension">
+        <summary><span class="guide-number">01</span><span><strong>Download extension</strong><small>Get the current ZIP package and prepare its permanent folder.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">
+          <a class="download-button" href="../downloads/ktools-studocu-pdf-exporter-1.0.0-manual.zip" download>Download Studocu v1.0.0 <span>↓</span></a>
+          <ol class="detailed-steps">
+            <li><strong>Select the download button above.</strong></li>
+            <li><strong>Wait for the ZIP to finish downloading.</strong></li>
+            <li><strong>Extract the package.</strong></li>
+          </ol>
+        </div>
+      </details>
+
+      <details id="how-to-add-extension">
+        <summary><span class="guide-number">02</span><span><strong>How to add extension</strong><small>Load the extracted folder into Chrome using Developer mode.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">
+          <div class="browser-visual" role="img" aria-label="Chrome address bar showing chrome colon slash slash extensions"><span></span><code>chrome://extensions</code></div>
+          <ol class="detailed-steps">
+            <li><strong>Open Google Chrome.</strong></li>
+            <li><strong>Open the Extensions page.</strong><p>Search on address bar: <code>chrome://extensions</code></p></li>
+            <li><strong>Enable Developer mode.</strong><p>Turn on <em>Developer mode</em> in the upper-right corner. Three buttons, including <em>Load unpacked</em>, will appear.</p></li>
+            <li><strong>Select Load unpacked.</strong><p>Select the extracted Studocu extension folder, not the ZIP file.</p></li>
+            <li><strong>Confirm successful installation.</strong><p>A card named <em>KTools Studocu PDF Exporter</em> with version <code>1.0.0</code> should appear and its enable switch should be on.</p></li>
+            <li><strong>Resolve any folder error.</strong><p>“Manifest file is missing or unreadable” means you selected the ZIP, the parent directory or an incomplete extraction. Select the correct extracted folder again.</p></li>
+          </ol>
+          <div class="tip-box"><strong>Optional:</strong> You do not need to pin the extension. KTools creates its floating STU control directly on supported Studocu pages.</div>
+        </div>
+      </details>
+
+      <details id="how-to-use">
+        <summary><span class="guide-number">03</span><span><strong>How to use</strong><small>Use Step 1 for reset/unblur, then Step 2 to prepare the PDF view.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">
+          <ol class="detailed-steps">
+            <li><strong>Open a Studocu document page.</strong><p>Sign in normally, open the document and wait until the first page is visible.</p></li>
+            <li><strong>Find the floating STU button.</strong><p>The KTools control appears on the right side of the page. Hover over it, or select it, to reveal the two-step panel.</p></li>
+            <li><strong>Run Step 1: Unblur / reset.</strong><p>Use this when the viewer needs a refresh. KTools clears Studocu cookies through the background worker and reloads the current tab.</p></li>
+            <li><strong>Return to the document after reload.</strong><p>Open the same document again if needed and wait until the page viewer is visible.</p></li>
+            <li><strong>Run Step 2: Download PDF.</strong><p>KTools scrolls through the viewer, captures pages rendered for the current session and opens a clean print preview inside the page.</p></li>
+            <li><strong>Save as PDF.</strong><p>Select <em>Print / Save as PDF</em>, choose Chrome's <em>Save as PDF</em> destination and save the file locally.</p></li>
+            <li><strong>Check the output.</strong><p>Open the saved PDF and confirm the page order, first page and last page before closing the original document.</p></li>
+          </ol>
+          <div class="warning-box"><strong>Important:</strong> Step 2 prepares an HTML print view. Chrome creates the PDF when you choose Save as PDF.</div>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="../"><span class="brand-mark">K</span>KTools</a><span>© <span id="year"></span> KTools</span></footer>
+  <script src="../script.js"></script>
+</body>
+</html>
