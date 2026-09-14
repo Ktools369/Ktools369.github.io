@@ -1,0 +1,10 @@
+.legal { max-width: 780px; margin: 0 auto; padding: 90px 28px 110px; }
+.legal-kicker { font-size: .75rem; font-weight: 800; letter-spacing: .12em; color: #5b62f4; }
+.legal h1 { font-size: clamp(2.7rem, 7vw, 4.8rem); line-height: 1; letter-spacing: -.055em; margin: 16px 0 34px; }
+.legal h2 { font-size: 1.35rem; margin: 38px 0 8px; }
+.legal p, .legal li { color: #666b76; }
+.legal a { color: #5b62f4; text-decoration: underline; }
+.legal code { background: #eaeaec; color: #17191f; padding: 2px 5px; border-radius: 5px; }
+.legal li + li { margin-top: 8px; }
+.pending, [aria-disabled="true"] { cursor: default; }
+.primary-button.pending { background: #777b88; box-shadow: none; }
