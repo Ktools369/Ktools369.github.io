@@ -1,4 +1,77 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="KTools Drive PDF Exporter."><title>Drive PDF Exporter — KTools</title><link rel="icon" href="../assets/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="../styles.css"><link rel="stylesheet" href="../routes.css"><link rel="stylesheet" href="../downloads.css"></head>
-<body><header class="site-header"><a class="brand" href="../"><span class="brand-mark">K</span>KTools</a><nav><a href="../">All tools</a><a href="../downloads/">Downloads</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav><a class="header-download" href="../downloads/ktools-drive-pdf-exporter-1.4.1-manual.zip" download>Download ZIP</a></header>
-<main class="page-shell"><span class="badge">GOOGLE DRIVE · VERSION 1.4.1</span><h1>Drive PDF<br>Exporter.</h1><p class="intro">Choose resolution, JPEG quality and file name, then export authorized viewer pages into an ordered PDF created locally in Chrome.</p><section class="product-panel"><span class="status-pill">Manual download available</span><h2>Install the extension manually</h2><p>Download and extract the package, then open <code>chrome://extensions</code>, enable Developer mode and choose Load unpacked.</p><a class="download-button" href="../downloads/ktools-drive-pdf-exporter-1.4.1-manual.zip" download>Download Drive v1.4.1 <span>↓</span></a></section><section class="plain-steps"><article><b>01</b><div><h3>Open the Drive viewer</h3><p>Navigate to a document you own or have permission to save.</p></div></article><article><b>02</b><div><h3>Choose output settings</h3><p>Use the floating PDF control to set quality and the output name.</p></div></article><article><b>03</b><div><h3>Keep the viewer open</h3><p>You may switch tabs while the local export continues.</p></div></article></section></main><footer><a class="brand" href="../"><span class="brand-mark">K</span>KTools</a><span>© <span id="year"></span> KTools</span></footer><script src="../script.js"></script></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Download, install and use KTools Drive PDF Exporter.">
+  <title>Drive PDF Exporter — KTools</title>
+  <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../styles.css">
+  <link rel="stylesheet" href="../routes.css">
+  <link rel="stylesheet" href="../downloads.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="../"><span class="brand-mark">K</span>KTools</a>
+    <nav><a href="../">All tools</a><a href="../downloads/">Downloads</a><a href="../privacy.html">Privacy</a><a href="../support.html">Support</a></nav>
+    <a class="header-download" href="../downloads/ktools-drive-pdf-exporter-1.4.1-manual.zip" download>Download ZIP</a>
+  </header>
+
+  <main class="page-shell guide-page">
+    <span class="badge">GOOGLE DRIVE · VERSION 1.4.1</span>
+    <h1 class="single-line-title">Drive PDF Exporter.</h1>
+    <p class="intro">Export authorized Google Drive viewer pages into one ordered, image-based PDF generated locally in Chrome.</p>
+
+    <section class="guide-accordion" aria-label="Drive PDF Exporter guide">
+      <details id="download-extension">
+        <summary><span class="guide-number">01</span><span><strong>Download extension</strong><small>Get the current ZIP package and prepare its permanent folder.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">       
+          <a class="download-button" href="../downloads/ktools-drive-pdf-exporter-1.4.1-manual.zip" download>Download Drive v1.4.1 <span>↓</span></a>
+          <ol class="detailed-steps">
+            <li><strong>Select the download button above.</strong></li>
+            <li><strong>Wait for the ZIP to finish downloading.</strong></li>
+            <li><strong>Extract the package.</strong></li>
+          </ol>
+        </div>
+      </details>
+
+      <details id="how-to-add-extension">
+        <summary><span class="guide-number">02</span><span><strong>How to add extension</strong><small>Load the extracted folder into Chrome using Developer mode.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">
+          <div class="browser-visual" role="img" aria-label="Chrome address bar showing chrome colon slash slash extensions"><span></span><code>chrome://extensions</code></div>
+          <ol class="detailed-steps">
+            <li><strong>Open Google Chrome.</strong></li>
+            <li><strong>Open the Extensions page.</strong><p>Search on address bar: <code>chrome://extensions</code></p></li>
+            <li><strong>Enable Developer mode.</strong><p>Turn on the <em>Developer mode</em> in the upper-right corner. Three buttons, including <em>Load unpacked</em>, will appear.</p></li>
+            <li><strong>Select Load unpacked.</strong><p>Select Load unpacked and then select the extracted folder not the ZIP one.</p></li>
+            <li><strong>Confirm the extension card.</strong><p>The page should show <em>KTools Drive PDF Exporter</em>, version <code>1.4.1</code>, with its switch enabled.</p></li>
+            <li><strong>Check for installation errors.</strong><p>If the card shows an Errors button, open it. A “manifest file is missing” message means the wrong folder level was selected.</p></li>
+          </ol>
+          <div class="tip-box"><strong>Tips:</strong> Pinning the toolbar icon is not required. The floating PDF control is injected directly into supported Google Drive viewer pages.</div>
+        </div>
+      </details>
+
+      <details id="how-to-use">
+        <summary><span class="guide-number">03</span><span><strong>How to use</strong><small>Open an authorized Drive document and configure the PDF export.</small></span><i aria-hidden="true"></i></summary>
+        <div class="guide-content">
+          <ol class="detailed-steps">          
+            <li><strong>Open the file in the Drive viewer.</strong><p>Double-click the document so it opens in the full viewer at <code>drive.google.com</code>. Wait until the first page is visible.</p></li>
+            <li><strong>Find the floating PDF button.</strong><p>The KTools control appears on the right side of the viewer. If it is missing, reload the tab once and confirm the extension is enabled.</p></li>
+            <li><strong>Open the export panel.</strong><p>Select or hover over the PDF control. The panel shows the file name, maximum page resolution, JPEG quality, estimated size and export status.</p></li>
+            <li><strong>Choose a resolution.</strong><p>Use a higher resolution for small text or printing. Use a lower resolution when file size matters more. Higher resolution requires more memory and processing time.</p></li>
+            <li><strong>Choose JPEG quality.</strong><p>High quality preserves diagrams and text edges but creates a larger PDF. Balanced quality is suitable for most lecture notes and slides.</p></li>
+            <li><strong>Set the output name.</strong><p>Enter a clear file name. The extension adds <code>.pdf</code> automatically if it is missing and removes characters that Windows cannot use in file names.</p></li>
+            <li><strong>Start the export.</strong><p>Select <em>Download complete PDF</em>. Keep the Drive viewer tab open while KTools reads the available pages and assembles the file locally.</p></li>
+            <li><strong>Watch the progress.</strong><p>The panel reports the page currently being processed and updates the progress bar. You may switch to another tab, but do not close or reload the Drive tab.</p></li>
+            <li><strong>Verify the result.</strong><p>When complete, Chrome downloads one image-based PDF. Open it and check the first page, last page, order and page count before closing the original document.</p></li>
+          </ol>
+          <div class="warning-box"><strong>Important:</strong>Generated PDFs contain page images and do not include an OCR text layer.</div>
+        </div>
+      </details>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="../"><span class="brand-mark">K</span>KTools</a><span>© <span id="year"></span> KTools</span></footer>
+  <script src="../script.js"></script>
+</body>
+</html>
